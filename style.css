@@ -37,3 +37,34 @@ section{
     font-weight: bold;
 
 }
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 8px;
+    height: 70%;
+    
+    transition: 1s;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+   
+}
+#Full-Stack{
+    border-left: 7px solid orangered;
+}
+#full{
+    border-left: 7px solid red;
+}
+.single-experience:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+#dim{
+    text-align: center;
+}
